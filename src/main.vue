@@ -4,6 +4,7 @@
         <hr/>
         <router-link to="/user">用户模块</router-link>
         <router-link to="/tenant">租户模块</router-link>
+        <router-link to="/custom">客户模块</router-link>
 <!--入口-->
         <router-view></router-view>
         <!--<user></user>-->

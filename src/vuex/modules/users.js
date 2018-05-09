@@ -18,7 +18,7 @@ const getters={
         return state.options
     }
 }
-//acttions  异步操作 在这里不要进行数据的处理
+//acttions  异步操作 在这里不要进行数据的处理 这里就是获取接口
 //可以if
 const actions={
     getUsers({commit}){

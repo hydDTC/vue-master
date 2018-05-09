@@ -11,6 +11,7 @@ import VueRouter from  'vue-router'
 import userList from './components/ui_user/users.vue'
 import userCreate from './components/ui_user/user-create.vue'
 import tenantList from './components/ui_tenant/tenant.vue'
+import customList from './components/ui_custom/custom.vue'
 Vue.use(VueRouter)
 
 // 2. 定义路由
@@ -21,7 +22,8 @@ Vue.use(VueRouter)
 const routes = [
     { path: '/user', component: userList },
     { path: '/userCreate', component: userCreate },
-    { path: '/tenant', component: tenantList}
+    { path: '/tenant', component: tenantList},
+    { path: '/custom', component: customList}
 ]
 
 // 3. 创建 router 实例，然后传 `routes` 配置
