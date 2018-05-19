@@ -92,6 +92,7 @@ export default{
         },
         // 父子插件
         // 父亲通过属性调用子插件的方法
+        // 一般用props
         parentCall(){
             this.$refs.chil.title="父亲改变了我的title";
             this.$refs.chil.chilFn('父亲传到孩子');
